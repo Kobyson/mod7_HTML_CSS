@@ -1,0 +1,2 @@
+# mod7_HTML_CSS
+Entrega 7 - HTML y CSS Objetivo Practicar con páginas HTML y estilos CSS que adaptan la presentación a terminales de distinto tamaño. Descripción de la práctica Añadir un conjunto de elementos HTML a un esqueleto de página Web. Añadir también el CSS necesario para que página se adapte a terminales de diferente tamaño. La adaptabilidad debe realizarse utilizando flex y grid. La nueva página debe mantener la apariencia visual de la página quiz-html incluida como modelo en el el esqueleto suministrado para la entrega.
