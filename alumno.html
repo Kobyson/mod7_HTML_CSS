@@ -1,46 +1,49 @@
 <html>
 <head><title>MVC Example</title><meta charset="utf-8">
 <link href="estilo_alumno.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Philosopher:400,700" rel="stylesheet">
 </head>
 <body>
 <nav>
   <ul>
 	<li><a href="quiz.html">QUIZ</a></li>
 	<li><a href="alumno.html">ALUMNO</a></li>
-	<li><a href="#">EJEMPLO 1</a></li>
-	<li><a href="#">EJEMPLO 2</a></li>
+	<li><a href="https://devcode.la/cursos/html-css/">EJEMPLO 1</a></li>
+	<li><a href="https://soyfrontend.com/curso-aprende-css3-desde-cero/">EJEMPLO 2</a></li>
   </ul>
 </nav>
 <section>
 	<article>
-		<h1>MVC: Videos</h1>     
+		<div>  
 			<div id="main">
-				<div>
-				<span class="play" quizid="0">Vídeo MOOC</span>
-				<button class="edit" quizid="0">Edit</button>
-				<button class="delete" quizid="0">Delete</button>
-			</div>
-			<div>
-				<span class="play" quizid="1">iframe que enlace a una página responsive</span>
-				<button class="edit" quizid="1">Edit</button>
-				<button class="delete" quizid="1">Delete</button>
-			</div>
-			<div>
-				<span class="play" quizid="1">Vídeo de YouTube</span>
-				<button class="edit" quizid="1">Edit</button>
-				<button class="delete" quizid="1">Delete</button>
-			</div>
+				<div class="video-container">
+					<video controls preload>
+						<source src="../mod7_HTML_CSS/video/MOOC.mp4" type='video/mp4; codecs="avc1,mp4a"' />
+						<source src="../mod7_HTML_CSS/video/MOOC.ogv" type='video/ogg; codecs="theora,vorbis"' />
+						<source src="../mod7_HTML_CSS/video/MOOC.webm" type='video/webm; codecs="vp8,vorbis"' />
+						<source src="../mod7_HTML_CSS/video/MOOC.mov" type='video/mov' />
+					</video>
+				</div>
+				<div class="video-container">
+					<iframe src="https://envylabs.com/" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" > </iframe>
+				</div>
+				<div class="video-container">
+					<iframe src="https://www.youtube.com/embed/p6D8YzLl7yo" frameborder="0" allowfullscreen="allowfullscreen"></iframe> 
+				</div>
+		</div>
 		</div>
 	</article>
 	<aside>
 		<div class="card">
-				<a href="https://graffica.info/design-quiz-2018-5/">
-				<img src="img/quiz05.png" width="524" height="367"></a> 
-			</div>
-			<div class="card">
-				<a href="http://typewar.com/"><img src="img/quiz2.jpg" ></a> 
-			</div>
+			<a href="https://devcode.la/cursos/html-css/">
+			<img src="img/devcode.jpeg" width="524" height="367"></a> 
+		</div>
+		<div class="card">
+			<a href="https://developer.mozilla.org/es/docs/Web/CSS"><img src="img/MDNweb.png" ></a> 
+		</div>
+		<div class="card">
+			<a href="https://uniwebsidad.com/libros/css-avanzado"><img src="img/uniwebsidad.png" ></a> 
+		</div>
 	</aside>
 </section>
 <footer>&copy; Harmenson Polo Olivo.</footer>
